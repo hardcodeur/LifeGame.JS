@@ -1,0 +1,36 @@
+{
+  "name": "life-game",
+  "version": "1.0.0",
+  "description": "Le jeu de la vie est un jeu où des cellules vivantes ou mortes évoluent sur une grille en fonction de règles simples. Les cellules peuvent naître, mourir ou survivre en fonction du nombre de voisines vivantes. Le jeu évolue étape par étape, créant des patterns et des formes complexes à partir de règles simples.",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [
+    "lifegame"
+  ],
+  "author": "b_bel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.9.1",
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "mocha": "^10.8.2",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2",
+    "ts-loader": "^9.5.1"
+  }
+}
