@@ -1,6 +1,6 @@
 # LifeGame.js
 
-![Game picture](./media/lifeGame.js_front.png)
+![Game picture](./img/media/lifeGame.js_front.png)
 
 ## Rules
 
@@ -27,4 +27,4 @@ Node.js
 
 ## Author
 
-![Logo perso](./media/my_logo.svg)
+![Logo perso](./img/media/my_logo.svg)
